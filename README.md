@@ -196,15 +196,3 @@ Client
   -> Service/Repository
   -> MySQL
 ```
-
-## Production recommendations
-
-- Store secrets in a secret manager/environment, never Git.
-- Use HTTPS.
-- Use short-lived access tokens.
-- Add refresh-token rotation if refresh tokens are required.
-- Prefer Flyway/Liquibase migrations.
-- Add CORS rules appropriate to the frontend.
-- Consider key rotation and asymmetric signing such as RS256 for larger systems.
-- Never log passwords or JWTs.
-- Consider account lockout/rate limiting for login endpoints.
