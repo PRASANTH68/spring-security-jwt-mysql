@@ -1,0 +1,3 @@
+-- Optional sample data.
+-- Do not insert passwords directly here.
+-- Register users through POST /api/auth/register so BCrypt is applied.
